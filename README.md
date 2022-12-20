@@ -1,6 +1,12 @@
 # SoftDeleteableListenerExtensionBundle
 
+Since the acceptance of our changes into the Gedmo library and their release in version 3.1.2, this fork should now no longer be needed. 
+
+----
+
 Extensions to Gedmo's softDeleteable listener which has had this issue reported since 2012 : https://github.com/Atlantic18/DoctrineExtensions/issues/505.
+
+----
 
 Provides the `onSoftDelete` functionality to an association of a doctrine entity. This functionality behaves like the SQL `onDelete` function  (when the owner side is deleted). *It will prevent Doctrine errors when a reference is soft-deleted.*
 
